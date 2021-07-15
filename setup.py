@@ -9,7 +9,7 @@ setuptools.setup(name='uoimdb',
                  # url='http://path-to-my-packagename',
                  packages=setuptools.find_packages(),
                  py_modules=['packagename'],
-                 package_data={'uoimdb': {'*.yaml', 'tagging/static/*/*', 'tagging/templates/*'}},
+                 package_data={'uoimdb': ['*.yaml', 'tagging/static/*/*', 'tagging/templates/*']},
                  # include_package_data=True,
                  install_requires=[
                         'opencv-python', 
